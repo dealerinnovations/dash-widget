@@ -3,12 +3,25 @@
 ## Installation 🚀
 
 - import script into your site:
-  DEV: `<script src="https://widget.dealerinnovations.com/.index.dev.min.js"></script>`
-  PROD: `<script src="https://widget.dealerinnovations.com/.index.js"></script>`
+  <br/>
+
+  ### DEV:
+
+  <br/>
+  <code>
+  `<script src="https://widget.dealerinnovations.com/.index.dev.min.js"></script>`
+  </code>
+  <br/>
+  ### PROD:
+  <br/>
+  <code>
+   `<script src="https://widget.dealerinnovations.com/.index.js"></script>`
+  </code>
 
 - Add the html tag like below to where you want to show the "Buy online" button from DASH:
-  `<div data-dash-vehicle-vin="YOUR_VEHICLE_VIN">
-  </div>`
+  <code>
+  `<div data-dash-vehicle-vin="YOUR_VEHICLE_VIN"></div>`
+  </code>
 
 ## Documentation 📄
 
