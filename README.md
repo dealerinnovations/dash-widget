@@ -7,13 +7,13 @@
 #### DEV
 
 ```html
-<script src="https://widget.dealerinnovations.com/.index.dev.min.js"></script>
+<script src="https://widget.dealerinnovations.com/index.dev.min.js"></script>
 ```
 
 #### PROD
 
 ```html
-<script src="https://widget.dealerinnovations.com/.index.js"></script>
+<script src="https://widget.dealerinnovations.com/index.min.js"></script>
 ```
 
 ### - Add the html tag like below to where you want to show the "Buy online" button from DASH:
