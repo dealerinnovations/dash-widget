@@ -1,5 +1,5 @@
 const DEFAULT_DASH_BUTTON_STYLE = `
-  <div style=" background-color: blue; text-align:center;font-size:16px; color: white;padding:10px;">
+  <div class='dash-button' style="background-color: blue; text-align:center;font-size:16px; color: white;padding:10px;">
     Buy Online
   </div>
 `;
