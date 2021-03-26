@@ -25,9 +25,10 @@ const injectDashWidget = dealerConfigs => {
     const node = document.createElement('a');
     node.innerHTML = button || DEFAULT_DASH_BUTTON_STYLE;
     node.href =
-      dealerConfigs.domain.indexOf('http') > -1
+      dealerConfigs.domain && dealerConfigs.domain.indexOf('http') > -1
         ? `${dealerConfigs.domain}/vehicle/${vin}`
         : `https://${dealerConfigs.domain}/vehicle/${vin}`;
+    node.style.textDecoration = 'auto';
     vehicles[i].appendChild(node);
   }
   return vehicles.length;
