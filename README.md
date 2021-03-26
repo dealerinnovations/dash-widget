@@ -13,14 +13,18 @@
   </code>
   <br/>
   ### PROD:
+
   <br/>
+
   <code>
-   `<script src="https://widget.dealerinnovations.com/.index.js"></script>`
+   <script src="https://widget.dealerinnovations.com/.index.js"></script>
   </code>
 
 - Add the html tag like below to where you want to show the "Buy online" button from DASH:
+
+ <br/>
   <code>
-  `<div data-dash-vehicle-vin="YOUR_VEHICLE_VIN"></div>`
+  <div data-dash-vehicle-vin="YOUR_VEHICLE_VIN"></div>
   </code>
 
 ## Documentation 📄
