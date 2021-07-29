@@ -39,8 +39,9 @@ const injectDashWidget = dealerConfigs => {
       iframe.width = '100%';
       iframe.height = '100%';
       iframe.style.border = 'none';
-
+      iframe.style.zIndex = 9999;
       const elmDiv = document.createElement('div');
+      elmDiv.style.zIndex = 9999;
       elmDiv.id = 'dash--iframe-wrapper';
       elmDiv.style.position = 'fixed';
       elmDiv.style.top = '0px';
