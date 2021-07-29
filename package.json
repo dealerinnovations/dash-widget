@@ -1,5 +1,5 @@
 {
-  "name": "@devtify/dash-widget",
+  "name": "@dealerinnovations/dash-widget",
   "version": "1.0.0",
   "description": "A Widget for implementation DASH into your website.",
   "main": "lib/index.js",

@@ -1,4 +1,4 @@
-# @devtify/dash-widget
+# @dealerinnovations/dash-widget
 
 ## Installation 🚀
 
