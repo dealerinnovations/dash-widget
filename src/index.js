@@ -76,7 +76,7 @@ const injectDashWidget = dealerConfigs => {
       closeButton.style.alignItems = 'center';
       closeButton.style.justifyContent = 'center';
       closeButton.style.padding = '15px';
-      closeButton.style.zIndex = '1000';
+      closeButton.style.zIndex = '10000';
 
       closeButton.onclick = () => {
         document.getElementById('dash--iframe-wrapper').remove();
